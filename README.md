@@ -1,6 +1,9 @@
-# first_flutter_app
+# Basic Flutter Applications
 
 A new Flutter project.
+
+NOTE : All the layouts and design are done in the home.dart (lib<ui<home.dart) 
+And the App is run inside the main.dart (lib<main.dart)
 
 ## Getting Started
 
