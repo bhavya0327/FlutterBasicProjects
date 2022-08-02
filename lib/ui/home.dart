@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+
+//The QuotesDaily App is starting from here
+
 class QuotesDaily extends StatefulWidget {
   const QuotesDaily({Key? key}) : super(key: key);
 
@@ -92,7 +95,15 @@ class _QuotesDailyState extends State<QuotesDaily> {
     });
   }
 }
+// End of QuotesDaily App
 
+
+
+
+
+
+
+//Start of Business Card App
 class BizCard extends StatelessWidget {
   const BizCard({Key? key}) : super(key: key);
 
@@ -182,6 +193,15 @@ class BizCard extends StatelessWidget {
     );
   }
 }
+// End of Business Card App
+
+
+
+
+
+
+
+//This down here is an idea on how to start working with Scaffold
 
 class ScaffoldExample extends StatelessWidget {
   _tappedButton() {
@@ -232,7 +252,7 @@ class ScaffoldExample extends StatelessWidget {
 
             // InkWell(
             //   child: Text("Tap Me!",
-            //   style: TextStyle(fontSize: 23.4),),
+            //   style: TextStyle(fontSize: 23.4),),           
             //
             //   onTap: () => debugPrint("tapping...."),
             // )
@@ -242,6 +262,13 @@ class ScaffoldExample extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+// This down here is an idea of how to create an customButton through Stateless class
 
 class CustomButton extends StatelessWidget {
   const CustomButton({Key? key}) : super(key: key);
@@ -267,6 +294,11 @@ class CustomButton extends StatelessWidget {
     );
   }
 }
+
+
+
+
+//This down here is an idea of how to start doing basic operations
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
